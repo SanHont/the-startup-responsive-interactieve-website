@@ -1,0 +1,164 @@
+:root {
+    --mobile-p-text-size: 0.8rem;
+    --valley-white: #FDFAF6;
+    --valley-black: #222222;
+    --valley-grey: #F4F4F5;
+    --valley-red: #E02C35;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: var(--valley-white);
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Martel-Black';
+    src: url(/fonts/Martel-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Martel-Regular';
+    src: url(/fonts/Martel-Regular.ttf);
+}
+
+header {
+    font-family: Montserrat-Bold;
+    position: relative;
+    line-height: 1;
+}
+
+header img {
+    position: relative;
+    max-width: 375px;
+}
+
+header h2 {
+    text-shadow: var(--valley-black) 1px 0 10px;
+    color: var(--valley-white);
+    font-size: 2.3rem;
+}
+
+header h3 {
+    color: var(--valley-white);
+    font-size: 2.9rem;
+}
+
+.sticky-logo img {
+    padding: 0.5rem 1.2rem;
+    position: absolute;
+    width: 40%;
+    z-index: 2;
+}
+
+.case-study-header {
+    padding-left: 1.2rem;
+    position: absolute;
+    bottom: 0.5rem;
+    z-index: 2;
+}
+
+.case-introduction {
+    font-family: Martel-Black;
+    max-width: 20rem;
+    padding: 1.8rem 1.2rem;
+}
+
+.case-introduction-optional-content {
+    font-family: Martel-Regular;
+    max-width: 20rem;
+    padding-left: 1.2rem;
+}
+
+.case-introduction-optional-content p {
+    padding-bottom: 1rem;
+    font-size: var(--mobile-p-text-size);
+}
+
+.case-introduction-optional-content h3 {
+    padding-bottom: 1rem;
+    font-family: Montserrat-Bold;
+    font-size: 1.4rem;
+}
+
+.facts-and-figures h2{
+    color: var(--valley-white);
+    font-family: Montserrat-Bold;
+    font-size: 2rem;
+}
+
+.facts-and-figures p{
+    color: var(--valley-white);
+    font-family: Martel-Regular;
+    font-size: var(--mobile-p-text-size);
+    padding-bottom: 1rem;
+}
+
+.fandf1 {
+    background: var(--valley-black);
+    margin-left: 1.2rem;
+    max-width: 20rem;
+    padding: 1.2rem;
+    margin-top: 1rem;
+}
+
+.fandf2 {
+    background: var(--valley-black);
+    margin-left: 1.2rem;
+    max-width: 20rem;
+    padding: 1.2rem;
+    margin-top: 1rem;
+}
+
+.fandf3 {
+    background: var(--valley-black);
+    margin-left: 1.2rem;
+    max-width: 20rem;
+    padding: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.fullbleed-image-with-tagline{
+    background: var(--valley-grey);
+}
+
+.fullbleed-phone-image img{
+    width: 60%;
+    margin: 2rem 0rem 0rem 2.4rem;
+}
+
+.fullbleed-tagline{
+    background: var(--valley-white);
+    font-family: Martel-Regular;
+    padding: 1.2rem;
+}
+
+.fullbleed-tagline p{
+    max-width: 20rem;
+    font-size: var(--mobile-p-text-size);
+}
+
+.title-rich-text-optional-content{
+    max-width: 20rem;
+    padding-left: 1.2rem
+}
+
+.title-rich-text-optional-content h2{
+    font-family: Montserrat-Bold;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.title-rich-text-optional-content p{
+    font-family: Martel-Regular;
+    font-size: var(--mobile-p-text-size);
+}
