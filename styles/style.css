@@ -161,4 +161,23 @@ header h3 {
 .title-rich-text-optional-content p{
     font-family: Martel-Regular;
     font-size: var(--mobile-p-text-size);
+    padding-bottom: 2rem;
+}
+
+.image-gallery-phone-image img{
+    width: 100%;
+}
+
+.image-gallery-quote{
+    background-color: var(--valley-white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.image-gallery-quote p{
+    font-family: Martel-Regular;
+    max-width: 21rem;
+    padding-left: 1.2rem;
+    line-height: 1.2rem;
+    font-size: var(--mobile-p-text-size);
 }
