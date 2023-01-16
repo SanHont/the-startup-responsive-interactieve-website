@@ -68,13 +68,13 @@ header h3 {
 
 .case-introduction {
     font-family: Martel-Black;
-    max-width: 20rem;
+    max-width: 21rem;
     padding: 1.8rem 1.2rem;
 }
 
 .case-introduction-optional-content {
     font-family: Martel-Regular;
-    max-width: 20rem;
+    max-width: 21rem;
     padding-left: 1.2rem;
 }
 
@@ -105,7 +105,7 @@ header h3 {
 .fandf1 {
     background: var(--valley-black);
     margin-left: 1.2rem;
-    max-width: 20rem;
+    max-width: 21rem;
     padding: 1.2rem;
     margin-top: 1rem;
 }
@@ -113,7 +113,7 @@ header h3 {
 .fandf2 {
     background: var(--valley-black);
     margin-left: 1.2rem;
-    max-width: 20rem;
+    max-width: 21rem;
     padding: 1.2rem;
     margin-top: 1rem;
 }
@@ -121,7 +121,7 @@ header h3 {
 .fandf3 {
     background: var(--valley-black);
     margin-left: 1.2rem;
-    max-width: 20rem;
+    max-width: 21rem;
     padding: 1.2rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -143,12 +143,12 @@ header h3 {
 }
 
 .fullbleed-tagline p{
-    max-width: 20rem;
+    max-width: 21rem;
     font-size: var(--mobile-p-text-size);
 }
 
 .title-rich-text-optional-content{
-    max-width: 20rem;
+    max-width: 21rem;
     padding-left: 1.2rem
 }
 
