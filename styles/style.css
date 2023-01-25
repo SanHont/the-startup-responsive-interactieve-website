@@ -11,10 +11,6 @@
     margin: 0;
 }
 
-body {
-    background: var(--valley-white);
-}
-
 @font-face {
     font-family: 'Montserrat-Bold';
     src: url(/fonts/Montserrat-Bold.ttf);
@@ -30,6 +26,10 @@ body {
     src: url(/fonts/Martel-Regular.ttf);
 }
 
+body {
+    background: var(--valley-white);
+}
+
 header {
     font-family: Montserrat-Bold;
     position: relative;
@@ -38,7 +38,7 @@ header {
 
 header img {
     position: relative;
-    max-width: 375px;
+    max-width: 100%;
 }
 
 header h2 {
@@ -68,13 +68,13 @@ header h3 {
 
 .case-introduction {
     font-family: Martel-Black;
-    max-width: 21rem;
+    max-width: 90%;
     padding: 1.8rem 1.2rem;
 }
 
 .case-introduction-optional-content {
     font-family: Martel-Regular;
-    max-width: 21rem;
+    max-width: 90%;
     padding-left: 1.2rem;
 }
 
@@ -89,13 +89,13 @@ header h3 {
     font-size: 1.4rem;
 }
 
-.facts-and-figures h2{
+.facts-and-figures h2 {
     color: var(--valley-white);
     font-family: Montserrat-Bold;
     font-size: 2rem;
 }
 
-.facts-and-figures p{
+.facts-and-figures p {
     color: var(--valley-white);
     font-family: Martel-Regular;
     font-size: var(--mobile-p-text-size);
@@ -105,7 +105,7 @@ header h3 {
 .fandf1 {
     background: var(--valley-black);
     margin-left: 1.2rem;
-    max-width: 21rem;
+    max-width: 90%;
     padding: 1.2rem;
     margin-top: 1rem;
 }
@@ -113,7 +113,7 @@ header h3 {
 .fandf2 {
     background: var(--valley-black);
     margin-left: 1.2rem;
-    max-width: 21rem;
+    max-width: 90%;
     padding: 1.2rem;
     margin-top: 1rem;
 }
@@ -121,63 +121,220 @@ header h3 {
 .fandf3 {
     background: var(--valley-black);
     margin-left: 1.2rem;
-    max-width: 21rem;
+    max-width: 90%;
     padding: 1.2rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
-.fullbleed-image-with-tagline{
+.fullbleed-image-with-tagline {
     background: var(--valley-grey);
 }
 
-.fullbleed-phone-image img{
+.fullbleed-phone-image img {
     width: 60%;
     margin: 2rem 0rem 0rem 2.4rem;
 }
 
-.fullbleed-tagline{
+.fullbleed-tagline {
     background: var(--valley-white);
     font-family: Martel-Regular;
     padding: 1.2rem;
 }
 
-.fullbleed-tagline p{
-    max-width: 21rem;
+.fullbleed-tagline p {
+    max-width: 90%;
     font-size: var(--mobile-p-text-size);
 }
 
-.title-rich-text-optional-content{
-    max-width: 21rem;
+.title-rich-text-optional-content {
+    max-width: 90%;
     padding-left: 1.2rem
 }
 
-.title-rich-text-optional-content h2{
+.title-rich-text-optional-content h2 {
     font-family: Montserrat-Bold;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
 }
 
-.title-rich-text-optional-content p{
+.title-rich-text-optional-content p {
     font-family: Martel-Regular;
     font-size: var(--mobile-p-text-size);
     padding-bottom: 2rem;
 }
 
-.image-gallery-phone-image img{
+.image-gallery-phone-image img {
     width: 100%;
 }
 
-.image-gallery-quote{
+.image-gallery-quote {
     background-color: var(--valley-white);
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-.image-gallery-quote p{
+.image-gallery-quote p {
     font-family: Martel-Regular;
-    max-width: 21rem;
+    max-width: 90%;
     padding-left: 1.2rem;
     line-height: 1.2rem;
     font-size: var(--mobile-p-text-size);
+}
+
+.image-gallery-quote-orange {
+    padding-top: 0.5rem;
+    font-family: Martel-Regular;
+    padding-left: 1.2rem;
+    color: var(--valley-red);
+    line-height: 1.2rem;
+    font-size: var(--mobile-p-text-size);
+}
+
+.image-gallery-3-items-and-tagline img {
+    width: 100%;
+    padding: 1.2rem;
+}
+
+.image-gallery-3-items-and-tagline p {
+    font-family: Martel-Regular;
+    max-width: 90%;
+    padding-left: 1.2rem;
+    line-height: 1.2rem;
+    padding-bottom: 2rem;
+    font-size: var(--mobile-p-text-size);
+}
+
+.contact-with-text-and-images {
+    display: flex;
+    flex-direction: column;
+    background: var(--valley-grey);
+    align-items: center;
+}
+
+.contact-with-text-and-images h2 {
+    font-family: Montserrat-Bold;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.2rem;
+}
+
+.contact-with-text-and-images button {
+    font-family: Montserrat-Bold;
+    height: 2.5rem;
+    border-radius: 2rem;
+    margin-left: -13rem;
+    border: none;
+    color: var(--valley-white);
+    width: 7rem;
+    background: var(--valley-red);
+}
+
+.contact-with-text-and-images img {
+    min-width: 40%;
+    margin-top: 2rem;
+}
+
+.contact-with-text-and-images-info {
+    background: var(--valley-white);
+    font-family: Montserrat-Bold;
+    padding-top: 0.4rem;
+    max-width: 40%;
+    margin-bottom: 1rem;
+    margin-top: -0.2rem;
+    padding-left: 1.2rem;
+}
+
+.contact-with-text-and-images-info-name {
+    color: var(--valley-red);
+}
+
+.contact-with-text-and-images-info-function {
+    color: var(--valley-black);
+}
+
+.contact-with-text-and-images-info-email {
+    font-family: Martel-Regular;
+    color: var(--valley-black);
+}
+
+.carousel-of-max-2-images-with-subtitle-below {
+    max-width: 80%;
+    font-family: Martel-Regular;
+    margin-top: 1rem;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--valley-black);
+}
+
+.carousel-of-max-2-images-with-subtitle-below h2 {
+    padding-bottom: 1rem; 
+}
+
+.carousel-of-max-2-images-with-subtitle-below img {
+    padding-bottom: 1rem;
+}
+
+.carousel-of-max-h2-red {
+    color: var(--valley-red);
+    font-family: Montserrat-Bold;
+}
+
+footer{
+    background: var(--valley-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--valley-white);
+    font-family: Martel-Regular;
+}
+
+footer > img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 60%;
+}
+
+footer > p {
+    max-width: 90%;
+    font-size: 1.4rem;
+    padding-left: 3rem;
+}
+
+.footer-small-text {
+    display: flex;
+    margin-top: 1.5rem;
+    align-items: center;
+    flex-direction: row;
+    font-size: 0.9rem;
+}
+
+.footer-small-text-left {
+    margin-right: 3rem;
+}
+
+.footer-small-text-right {
+    margin-left: 3rem;
+}
+
+.footer-small-text p{
+    padding-bottom: 0.15rem;
+}
+
+.footer-stripe {
+    width: 100%;
+    margin-top: 1rem;
+    height: 3px;
+    opacity: 0.3;
+    background: #FDFAF6;
+}
+
+.footer-bottom-lines{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    margin-left: -12rem;
+    padding-bottom: 0.15rem;
 }

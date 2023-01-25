@@ -1,0 +1,4 @@
+margin - en dan via javascript naar normale margin
+slide justus eerste javascript les 
+niet van rechts of links maar boven of beneden slide in
+comments in css
