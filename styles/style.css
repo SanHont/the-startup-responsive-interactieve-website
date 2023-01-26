@@ -239,7 +239,7 @@ header h3 {
     background: var(--valley-white);
     font-family: Montserrat-Bold;
     padding-top: 0.4rem;
-    max-width: 40%;
+    max-width: 100%;
     margin-bottom: 1rem;
     margin-top: -0.2rem;
     padding-left: 1.2rem;
