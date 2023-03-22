@@ -2,3 +2,15 @@ margin - en dan via javascript naar normale margin
 slide justus eerste javascript les 
 niet van rechts of links maar boven of beneden slide in
 comments in css
+
+per component werken - mobile/tablet/desktop
+
+
+presenteren tips
+met zekerheid en overtuiging presenteren over je eigen product
+begin met een begin praatje over wat je gaat vertellen en dan pas het product laten zien
+breng structuur aan je presentatie
+opdracht herhalen
+presenteer richting de zaal
+antwoord vragen waarom je ergens niet aan toe bent gekomen niet met geen tijd maar bijvoorbeeld ik vond dit onderdeel meer prioriteit hebben
+stel nog een vraag aan de andere over hoe hun het zouden hebben gedaan
